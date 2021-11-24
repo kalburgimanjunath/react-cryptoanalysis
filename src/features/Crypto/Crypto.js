@@ -12,6 +12,7 @@ export default function Crypto() {
       .then((response) => response.json())
 
       .then((data) => {
+        console.log(data);
         setCrypto(data.results);
       });
   });

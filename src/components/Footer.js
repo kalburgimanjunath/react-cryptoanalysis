@@ -21,7 +21,11 @@ export default function Footer() {
   return (
     <div>
       {links.map((item) => {
-        return <Link to={`/${item}`}>{item}</Link>;
+        return (
+          <Link key={item} to={`/${item}`}>
+            {item}
+          </Link>
+        );
       })}
     </div>
   );
