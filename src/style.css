@@ -1,0 +1,9 @@
+@import './styles/draftjs.css';
+@import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+.form .error {
+  color: red;
+}
+
+.texteditor {
+  color: red;
+}
